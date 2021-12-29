@@ -87,12 +87,21 @@ body{
   margin-bottom: 1.5rem;
 
 }
+.price-container{
+  display: flex;
+  align-items: center;
+}
+.time-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .price-container p{
-  display: inline;
+  margin-left: 0.25rem;
   color: hsl(178, 100%, 50%);
 }
 .time-container p{
-  display: inline;
+  margin-left: 0.25rem;
   color: hsl(215, 51%, 70%);
 }
 
@@ -139,8 +148,10 @@ hr{
 @media screen and (max-width: 375px) {
   body{
     font-size: 16px;
+
   }
   .card-container{
     width: 80%;
+        margin: auto;
   }
 }
